@@ -17,6 +17,7 @@ public class SplashActivity extends AppCompatActivity {
 
         StartAnimations();
     }
+
     private void StartAnimations() {
         Animation anim = AnimationUtils.loadAnimation(this, R.anim.anim);
         anim.reset();
